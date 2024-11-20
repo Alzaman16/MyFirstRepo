@@ -3,7 +3,7 @@ install.packages("tidyverse")
 library(tidyverse)
 
 # Load the data (replace 'file_path' with the actual path to your CSV file)
-data <- read.csv("C:\\Users\\London PC3\\A101\\bank_additional_full.csv", sep=",")
+data <- read.csv("Users/prakashpatel/Desktop\A101\bank_additional_full.csv", sep=",")
 
 data$y <- as.factor(data$y)
 data$job <- as.factor(data$job)
